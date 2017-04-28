@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/instantmessaging"
+    android:padding="0dip"
+    tools:context=".LoginActivityInstantMessaging">
+
+    <LinearLayout
+        android:id="@+id/mylinears"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="Enter your name"
+            android:textAllCaps="true"
+            android:textColor="@color/sinch_purple"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/loginNameIM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/inputbox"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/sinch_purple"
+            android:textSize="32sp">
+
+            <requestFocus />
+        </EditText>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginButtonIM"
+        android:layout_below="@+id/mylinears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:background="@drawable/button_login"
+        android:minHeight="56dp"
+        android:minWidth="132dp"
+        android:textColor="@color/off_white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/troubleTextViewIM"
+        android:clickable="true"
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginButtonIM"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:text="Take a Guide"
+        android:textColor="#63029d"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

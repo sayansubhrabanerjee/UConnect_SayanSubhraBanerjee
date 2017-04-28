@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">UConnect</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="know_location">Trace Me</string>
+    <string name="app_rating">Rate Us</string>
+
+    <string name="title_activity_text">TextActivity</string>
+    <string name="title_activity_dialer">DialerActivity</string>
+    <string name="title_activity_mail">MailActivity</string>
+    <string name="title_activity_sms">SMSActivity</string>
+    <string name="title_activity_call">CallActivity</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="latitude">Latitude: %1$s</string>
+    <string name="longitude">Longitude: %1$s</string>
+    <string name="street">Street: %1$s</string>
+    <string name="block">Block: %1$s</string>
+    <string name="city">City: %1$s</string>
+
+    <string name="state">State: %1$s</string>
+    <string name="country">Country: %1$s</string>
+    <string name="postalCode">Postal Code: %1$s</string>
+    <string name="knownName">Known Name: %1$s</string>
+    <string name="phone">Phone: %1$s</string>
+    <string name="subLocality">Sub Locality: %1$s</string>
+    <string name="subAdmin">Sub Admin: %1$s</string>
+    <string name="rateNow">Please Rate </string>
+    <string name="TroubleShoot">
+        Consider your name as John and your friend as Peter.
+        \n\n You will login with the name <b>John</b> and your friend will login
+        with the name <b>Peter</b>.
+
+        \n\n <b>Device A (Login) : John
+        \n Device B (Login) : Peter</b>
+
+        \n\n After you both logged-in from two different devices give your friend\'s name in
+        Recipient section and your friend should give your name in his Recipient section.
+
+        \n\n <b> Device A (Recipient) : Peter
+        \n Device B (Recipient) : John</b>
+
+        \n\n Now you both are connected. Enjoy Chatting!
+
+    </string>
+
+    <!--<string name="banner_home_header">ca-app-pub-9871628219224779/5833524040</string>
+    <string name="banner_home_footer">ca-app-pub-9871628219224779/2461255242</string>-->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <!--<string name="banner_ad_unit_id">ca-app-pub-9871628219224779/1469409647</string>-->
+    <string name="title_activity_ad">AdActivity</string>
+    <string name="title_activity_ads">AdsActivity</string>
+
+    <!--<string name="google_maps_key">AIzaSyBsIcjnpCg5WoYM-1S5sxbORqOIEeEqYLo</string>-->
+</resources>
